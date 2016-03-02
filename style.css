@@ -1,3 +1,51 @@
 img{
 	max-width: 100%;
 }
+
+body{
+	background: url(images/bg1.jpg) no-repeat center;
+	background-size: cover;
+}
+.container{
+	max-width: 960px;
+}
+
+#main{
+	background: #FFF;
+	border-radius: 10px;
+}
+
+
+/* BLOCK */
+.sidebar .block{
+	margin-bottom: 15px;
+}
+#block-testimonials{}
+#block-testimonials .content{
+	background: url(images/chat.png) no-repeat 15px 15px #f0f2b6;
+	border: 5px solid #c3d339;
+	padding: 15px;
+}
+#block-testimonials .content h2{
+	margin: 0;
+	text-align: right;
+	margin-bottom: 25px;
+}
+#block-testimonials .content blockquote{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	border: none;
+}
+#block-testimonials .content blockquote p{}
+#block-testimonials .content blockquote footer{}
+
+#block-fetured-event{}
+#block-fetured-event .content{
+	box-shadow: 0 2px 4px #DDD;
+	-moz-box-shadow: 0 2px 4px #DDD;
+	-webkit-box-shadow: 0 2px 4px #DDD;
+}
+#block-fetured-event img{
+	width: 100%;
+}
