@@ -14,7 +14,10 @@ body{
 	background: #FFF;
 	border-radius: 10px;
 }
-
+.padding-bottom
+{
+	padding-bottom: 20px;
+}
 
 /* BLOCK */
 .sidebar .block{
@@ -48,4 +51,84 @@ body{
 }
 #block-fetured-event img{
 	width: 100%;
+}
+
+
+/* BLOCK #intro class="block block-class clearfix"*/
+#block-intro
+{
+	border-bottom:  4px dotted #CCC;;
+}
+.img-border 
+  { border: 1px solid grey;
+  	width: 100%;
+
+  }
+/* <section id="block-services" class="block block-class clearfix">*/
+.view .service-item h2
+{
+	font-size: 25px;
+}
+.view .service-item > img 
+{
+    border: 1px solid #CCC;
+    height: 60px;
+    position: relative;
+    width: 60px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+/* BLOCK FoOTER */
+#footer
+{
+	margin: 20px 0;
+	border-radius: 5px;
+	font-size: 14px;
+}
+#footer .footer-bg
+{
+
+	background: url("images/footer-bg.jpg");
+	border-top: 1px solid #BCCF4D;
+    border-right: 1px solid #88AA31;
+    border-bottom: 1px solid #7F9F27;
+    border-left: 1px solid #88AA31;
+    border-radius: 10px;
+}
+.four-group
+{
+	    border-bottom: dotted 2px #ADC442;
+}
+.four-group a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.four-group a:hover
+{
+	color: blue;
+}
+.four-group h3
+{
+	    color: #406f29;
+}
+.style-group2 ul li span.date
+{
+	color: #f5cf47;
+}
+.style-group3 address
+{
+	color: #FFF;
+}
+.style-group4 ul li
+{
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+
+
+.copyright
+{
+	margin: 20px 0;
 }
